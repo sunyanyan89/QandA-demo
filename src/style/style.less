@@ -1,0 +1,108 @@
+html {
+    width: 100vw;
+    height: 100vh;
+    body {
+        width: 100%;
+        background: url(../images/1-1.jpg) no-repeat;
+        background-size: 100% 100%;
+        .content {
+            margin: 130px 0 0 0;
+        }
+        .btn {
+                margin-left: 40%;
+                margin-top: -5%;
+                .btn_style {
+                    display: inline-block;
+                    width: 100px;
+                    height: 50px;
+                    background-repeat: no-repeat;
+                    background-size: 100% 100%;
+                }
+                .home_btn {
+                    background-image: url(../images/1-4.png);
+                }
+                .next_btn {
+                    background-image: url(../images/2-2.png);                    
+                }
+                .submit_btn {
+                    background-image: url(../images/3-1.png);                    
+                }
+                .share_btn {
+                    width: 80%;
+                    height: 6rem;
+                    margin-left: -4rem;
+                    background-image: url(../images/4-3.png);
+                }
+        }
+        .logo_style{
+            width: 95%;
+            height: 400px;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        .home_logo {
+            background-image: url(../images/1-2.png);            
+        }
+        .item_logo {
+            background-image: url(../images/2-1.png);
+            
+        }
+        .item_list {
+            color: #fff;
+            padding-top: 70px;
+            padding-left: 100px;
+            .item_title {
+              font-size: 25px;
+            }
+            ul {
+                margin-top: 10px;
+                margin-left: -20px;
+                li {
+                    list-style: none;
+                    line-height: 40px;
+                    .opt_prefix {
+                        display: inline-block;
+                        text-align: center;
+                        width: 20px;
+                        height: 20px;
+                        line-height: 20px;
+                        border-radius: 10px;
+                        border: 1px solid #ccc;
+                        margin-right: 10px;
+                        
+                    }
+                    &.active {
+                        .opt_prefix {
+                            color: #000;
+                            background-color: #1fc7f7;
+                        }
+                        .opt_detail {
+                            color: #1fc7f7;
+                        }
+                    }
+                }
+            }
+        }
+        .showScore {
+            margin: 3rem 4rem 0;
+            width: 25rem;
+            height: 25rem;
+            background: url(../images/4-2.png) no-repeat;
+            background-size: 75% 75%;
+            .finalScore {
+                color: #b92d0b;
+                font-weight: bold;
+                font-size: 40px;
+                position: relative;
+                top: 10rem;
+                left: 6rem;
+            }
+            p {
+                padding-top: 10rem;
+                padding-left: 2rem;
+                width: 60%;
+                text-align: center;
+            }
+        }
+    }
+}
