@@ -1,20 +1,23 @@
 html {
+    font-size: 100px;
     width: 100vw;
     height: 100vh;
     body {
+        font-size: .14rem;
         width: 100%;
         background: url(../images/1-1.jpg) no-repeat;
         background-size: 100% 100%;
+        text-align: center;
         .content {
-            margin: 130px 0 0 0;
+            margin: 1.3rem 0 0 0;
         }
         .btn {
-                margin-left: 40%;
-                margin-top: -5%;
+                // margin-left: 40%;
+                // margin-top: -5%;
                 .btn_style {
                     display: inline-block;
-                    width: 100px;
-                    height: 50px;
+                    width: 1rem;
+                    height: .5rem;
                     background-repeat: no-repeat;
                     background-size: 100% 100%;
                 }
@@ -28,20 +31,20 @@ html {
                     background-image: url(../images/3-1.png);                    
                 }
                 .share_btn {
-                    width: 80%;
-                    height: 6rem;
-                    margin-left: -4rem;
+                    width: 1.5rem;
+                    height: .6rem;
                     background-image: url(../images/4-3.png);
                 }
         }
         .logo_style{
             width: 95%;
-            height: 400px;
+            height: 4rem;
             background-size: 100% 100%;
             background-repeat: no-repeat;
         }
         .home_logo {
-            background-image: url(../images/1-2.png);            
+            height: 50%;
+            // background-image: url(../images/1-2.png);            
         }
         .item_logo {
             background-image: url(../images/2-1.png);
@@ -49,27 +52,27 @@ html {
         }
         .item_list {
             color: #fff;
-            padding-top: 70px;
-            padding-left: 100px;
+            padding-top: .6rem;
+            margin-left: -.5rem;
             .item_title {
-              font-size: 25px;
+              font-size: .25rem;
             }
             ul {
-                margin-top: 10px;
-                margin-left: -20px;
+                margin-top: .1rem;
+                text-align: left;
                 li {
                     list-style: none;
-                    line-height: 40px;
+                    line-height: .4rem;
+                    padding-left: 40%;
                     .opt_prefix {
-                        display: inline-block;
                         text-align: center;
-                        width: 20px;
-                        height: 20px;
-                        line-height: 20px;
-                        border-radius: 10px;
+                        display: inline-block;
+                        width: .2rem;
+                        height: .2rem;
+                        line-height: .2rem;
+                        border-radius: .1rem;
                         border: 1px solid #ccc;
-                        margin-right: 10px;
-                        
+                        margin-right: .1rem;
                     }
                     &.active {
                         .opt_prefix {
@@ -84,24 +87,21 @@ html {
             }
         }
         .showScore {
-            margin: 3rem 4rem 0;
-            width: 25rem;
-            height: 25rem;
+            margin: .5rem auto;
+            width: 3rem;
+            height: 3rem;
             background: url(../images/4-2.png) no-repeat;
-            background-size: 75% 75%;
-            .finalScore {
-                color: #b92d0b;
-                font-weight: bold;
-                font-size: 40px;
+            background-size: 100% 100%;
+            .info {
                 position: relative;
-                top: 10rem;
-                left: 6rem;
-            }
-            p {
-                padding-top: 10rem;
-                padding-left: 2rem;
-                width: 60%;
-                text-align: center;
+                top: 1.5rem;
+                margin-left: .2rem;
+                .finalScore {
+                    color: #b92d0b;
+                    font-weight: bold;
+                    font-size: .4rem;
+                    margin-left: .3rem;
+                }
             }
         }
     }

@@ -12,15 +12,15 @@ export default {
 .top-tip {
   position: absolute;
   top: 0;
-  right: 3rem;
-  height: 12rem;
-  width: 6rem;
+  right: -.5rem;
+  height: 1.5rem;
+  width: 2rem;
   background: url('../images/WechatIMG2.png') no-repeat;
-  background-size: 100px 170px;
+  background-size: 50% 100%;
   span {
-    position: absolute;
-    top: 8rem;
-    left: 1.8rem;
+    position: relative;
+    top: 1.1rem;
+    left: -.5rem;
     color: #d63706;
   }
 }
