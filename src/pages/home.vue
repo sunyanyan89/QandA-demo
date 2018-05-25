@@ -3,9 +3,9 @@
     <Top>第一周</Top>   
     <div class="content home_container">
       <div class='pra'>
-        <button>{{home}}--{{count}}--{{title}}--{{countPlusLocalState}}--{{doneTodosCount}}</button><br>
-        <button @click="$store.commit('SWITCH_SHOW')">show:{{show}}</button><br>
-        <button @click='toAdd'>add</button>
+        <!-- <button>{{home}}--{{count}}--{{title}}--{{countPlusLocalState}}--{{doneTodosCount}}</button><br> -->
+        <!-- <button @click="$store.commit('SWITCH_SHOW')">show:{{show}}</button><br> -->
+        <!-- <button @click='toAdd'>add</button> -->
       </div>
       
       <div class="logo_style home_logo"></div>
